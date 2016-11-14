@@ -6,7 +6,7 @@ import config from '../webpack.config.dev';
 /* eslint-disable no-console */
 
 const app = express();
-const port = 9000;
+const port = 3000;
 const compiler = webpack(config);
 
 app.use(require('webpack-dev-middleware')(compiler, {
