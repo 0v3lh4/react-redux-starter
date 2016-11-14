@@ -1,0 +1,18 @@
+{
+    "libs": [
+        "lodash",
+        "moment",
+        "jquery",
+        "browser",
+        "ecma6"
+    ],
+
+    "plugins": {
+        "node": {},
+        "complete_strings": {},
+        "modules": {},
+        "es_modules": {},
+        "webpack": {},
+        "doc_comment": {}
+    }
+}
