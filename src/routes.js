@@ -8,4 +8,3 @@ export default (
     <IndexRoute component={HomePage} />
   </Route>
 );
-

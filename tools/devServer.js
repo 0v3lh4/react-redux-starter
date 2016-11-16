@@ -12,6 +12,9 @@ const compiler = webpack(config);
 app.use(require('webpack-dev-middleware')(compiler, {
   publicPath: config.output.publicPath,
   stats: {colors:true},
+  noInfo: true,
+  hot: true,
+  historyApiFallback: true,
 }));
 
 app.use(require('webpack-hot-middleware')(compiler, {
